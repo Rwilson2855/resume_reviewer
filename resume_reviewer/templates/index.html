@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gen Z Resume Reviewer</title>
+</head>
+<body>
+    <h1>Gen Z Resume Reviewer</h1>
+    <label for="file">Select your resume: </label>
+    <input type="file" id="file" name="file" accept=".pdf"/>
+    <button id="submit">Review</button>
+    <div id="results"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.6/marked.min.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
