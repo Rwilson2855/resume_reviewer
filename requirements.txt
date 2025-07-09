@@ -4,8 +4,10 @@ cachetools==5.5.2
 certifi==2025.6.15
 charset-normalizer==3.4.2
 click==8.1.8
+defusedxml==0.7.1
 Flask==3.1.1
-fpdf==1.7.2
+fonttools==4.58.5
+fpdf2==2.8.3
 google-ai-generativelanguage==0.6.15
 google-api-core==2.25.1
 google-api-python-client==2.175.0
@@ -20,7 +22,9 @@ idna==3.10
 importlib_metadata==8.7.0
 itsdangerous==2.2.0
 Jinja2==3.1.6
+markdown2==2.5.3
 MarkupSafe==3.0.2
+pillow==11.3.0
 proto-plus==1.26.1
 protobuf==5.29.5
 pyasn1==0.6.1
