@@ -3,6 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>Gen Z Resume Reviewer</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        #results { margin-top: 2em; }
+        #download-link { display: none; margin-top: 1em; }
+        #submit[disabled] { opacity: 0.6; }
+    </style>
 </head>
 <body>
     <h1>Gen Z Resume Reviewer</h1>
@@ -10,6 +16,7 @@
     <input type="file" id="file" name="file" accept=".pdf"/>
     <button id="submit">Review</button>
     <div id="results"></div>
+    <a id="download-link" href="#" download>Download Improved Resume (PDF)</a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.6/marked.min.js"></script>
     <script src="{{ url_for('static', filename='app.js') }}"></script>
 </body>
