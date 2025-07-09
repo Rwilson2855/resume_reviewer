@@ -22,7 +22,7 @@ body {
     width: 65%;
     height: 100px;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Jockey One", sans-serif;
     align-content: center;
 }
 .dropdownmenu{
@@ -30,7 +30,6 @@ body {
     justify-items: right;
 }
 .menubar{
-    background-color: grey;
     border-radius: 20px;
     width: 95%;
     margin: 0 auto;
@@ -45,4 +44,10 @@ body {
     font-size:40px;
     height: 80px;
     width: 200px;
+}
+
+.jockey-one-regular {
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
