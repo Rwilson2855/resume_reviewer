@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const reviewButton = document.querySelector('#submit');
     const results = document.querySelector('#results');
     const downloadLink = document.querySelector('#download-link');
-
+// DOM elements for pdf submit process
     reviewButton.addEventListener('click', async function(e) {
         e.preventDefault();
         if (fileInput.files.length === 0) {
