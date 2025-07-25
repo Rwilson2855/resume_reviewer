@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         } catch (err) {
             results.innerHTML = "<span style='color:red;'>An error occurred. Please try again.</span>";
-        }
+        } // error handling for gemini failure
         reviewButton.disabled = false;
     });
 });
