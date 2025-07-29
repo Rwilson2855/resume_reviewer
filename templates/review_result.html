@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Review Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='resume.css') }}">
+</head>
+<body>
+    <h1>Gemini Feedback</h1>
+    <p>{{ feedback }}</p>
+
+    <h2>Your Improved Resume</h2>
+    <a href="{{ pdf_url }}" target="_blank" rel="noopener">Download Improved Resume PDF</a>
+
+    <p><a href="{{ url_for('index') }}">Try another file</a></p>
+</body>
+</html>

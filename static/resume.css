@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 40px auto;
+  max-width: 800px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #1976D2;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 3px;
+  margin-top: 24px;
+}
+
+h3 {
+  font-size: 1em;
+  margin-bottom: 2px;
+}
+
+.contact-info {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 24px;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+ul, ol {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  padding-left: 18px;
+}
+
+.skills-list,
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.skills-list li,
+.tech-list li {
+  background: #F3F6F9;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 0.98em;
+}
+
+.experience {
+  margin-bottom: 14px;
+  margin-top: 6px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+.org-loc {
+  color: #666;
+  font-size: 0.98em;
+}
+
+.dates {
+  float: right;
+  color: #888;
+  font-size: 0.97em;
+  font-style: italic;
+}
+
+@media print {
+  body {
+    margin: 0;
+    max-width: 100%;
+  }
+  a::after { content: ""; }
+}
+
+/* Optional: Links styling */
+a {
+  color: #1976D2;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
